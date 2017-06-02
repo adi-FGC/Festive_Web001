@@ -256,7 +256,7 @@
           },
           "title": "<b>Take the Lead</b>",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<blockquote>Often a leader is all it take to start a revolution. <br>No matter how daunting the task may seem, a small catalyst can ignite the flames of revolution</blockquote>",
+          "text": "<blockquote>Often, a leader is all it take to initiate change. <br>No matter how daunting the task may seem, a small catalyst can ignite the flames of revolution.</blockquote>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>",
           "_styles": {
             ".lead BLOCKQUOTE": {
