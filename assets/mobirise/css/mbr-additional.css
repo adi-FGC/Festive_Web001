@@ -131,12 +131,18 @@
 }
 #header4-c P {
   font-size: 19px;
+  text-align: right;
+}
+#header4-c B {
+  text-align: right;
 }
 #content5-d P {
   font-size: 25px;
+  color: #ffffff;
 }
 #content5-d .mbr-section-title B {
   font-size: 60px;
+  color: #ffffff;
 }
 #content4-e P {
   text-align: center;
@@ -149,5 +155,5 @@
   text-align: center;
 }
 #testimonials1-g .card-block I {
-  text-align: left;
+  text-align: center;
 }

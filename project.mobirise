@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Festive",
-    "currentPage": "home.html",
+    "currentPage": "Interns.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -549,7 +549,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-2.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -559,21 +559,25 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#ffffff",
-            "contentAlign": "left",
+            "contentAlign": "right",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
             "showArrow": true
           },
-          "title": "<b>Why FGC?</b>",
+          "title": "<b>Why intern at FGC?</b>",
           "text": "At FGC we believe in creating <b>bonds that last</b>, <br>so you as FGC interns get <b>one-on-one mentoring</b> <br>from the FGC executives as well as from the various <br>eminent people who are contributors in the FGC network. <br>We shall <b>incubate you</b> and support you through the various <br>phases and challenges that you will face, so at the very least <b>you </b><br>shall be a <b>proud member of a family</b> built around these cornerstones..",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Join Now</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Join Now</a> ",
           "_styles": {
             "H1": {
               "font-size": "30px"
             },
             "P": {
-              "font-size": "19px"
+              "font-size": "19px",
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "right"
             }
           }
         },
@@ -589,7 +593,7 @@
             "paddingBottom": "2",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1589.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1334.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -597,19 +601,21 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#dddddd",
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": true
           },
           "title": "<b>FGC Benefits!</b>",
-          "caption": "<p>Most importantly we offer you a chance to get in on the ground level of FGC, which we intend to be a household name in years to come.</p>",
+          "caption": "<p>Most importantly we offer you a chance to get in on the ground level of FGC, <br>which we intend to make into a household name in the years to come.</p>",
           "_styles": {
             "P": {
-              "font-size": "25px"
+              "font-size": "25px",
+              "color": "#ffffff"
             },
             ".mbr-section-title B": {
-              "font-size": "60px"
+              "font-size": "60px",
+              "color": "#ffffff"
             }
           }
         },
@@ -639,14 +645,14 @@
             "showTitles": true,
             "showCaptions": true
           },
-          "title1": "Internship Certificates",
-          "caption1": "You shall get certificates upon successful completion of your term at FGC (Sets of 6 months) while maintaining at least a satisfactory level of work.",
-          "title2": "Letter of Recommendation",
-          "caption2": "In the world beyond college life, LoRs go a long way in making your paths easier. Help us reach our goals and we shall do the same for you. ",
-          "title3": "Letter of Appreciation",
-          "caption3": "There are always those who  stand out from the crowd and go.above and beyond the call of duty to deliver jobs that exceeds our expectations. Such hard work shall always be rewarded in the form of LoAs among other things.",
-          "title4": "Courses and Certifications",
-          "caption4": "We shall provide you with the necessary training and resources to complete our specially designed courses, while also providing you with certifications for these courses free of cost.",
+          "title1": "Letter of Recommendation",
+          "caption1": "In the world beyond college life, LoRs go a long way in making your paths easier. Help us reach our goals and we shall do the same for you.&nbsp;",
+          "title2": "Internship Certificates",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">You shall get certificates upon successful completion of your term at FGC.&nbsp;</span><br>",
+          "title3": "Courses",
+          "caption3": "We shall provide you with the necessary training and resources to complete our specially designed courses, free of cost.",
+          "title4": "Letter of Appreciation",
+          "caption4": "There are always those who stand out from the crowd and go.above and beyond the call of duty to deliver jobs that exceeds our expectations. Such hard work shall always be rewarded in the form of LoAs among other things.",
           "_styles": {
             "P": {
               "text-align": "center"
@@ -657,7 +663,7 @@
           "items": [
             {
               "text": "<i>FGC products are slated to be amongst the household items in the days to come. For the duration of your internship you shall have premium access to all FGC products. <br>This may be extended to a lifetime access given your continued relationship​ with FGC.</i>",
-              "authorName": "<b>Premium Access</b>",
+              "authorName": "<b>Premium Access.</b>",
               "authorBio": ""
             },
             {
@@ -667,7 +673,7 @@
             },
             {
               "text": "<i>At FGC we pride ourselves on our technological enthusiasm and expertise. We extend the same to you. Given the scope of the assigned project you shall have direct access to various forms of technological innovation and concepts.</i>",
-              "authorName": "<b>Latest Technologies</b>",
+              "authorName": "<b>Latest Technologies.</b>",
               "authorBio": ""
             },
             {
@@ -684,7 +690,7 @@
           "testimonial": [
             {
               "text": "<i>FGC products are slated to be amongst the household items in the days to come. For the duration of your internship you shall have premium access to all FGC products. <br>This may be extended to a lifetime access given your continued relationship​ with FGC.</i>",
-              "authorName": "<b>Premium Access</b>",
+              "authorName": "<b>Premium Access.</b>",
               "authorBio": ""
             },
             {
@@ -694,14 +700,14 @@
             },
             {
               "text": "<i>At FGC we pride ourselves on our technological enthusiasm and expertise. We extend the same to you. Given the scope of the assigned project you shall have direct access to various forms of technological innovation and concepts.</i>",
-              "authorName": "<b>Latest Technologies</b>",
+              "authorName": "<b>Latest Technologies.</b>",
               "authorBio": ""
             }
           ],
           "_anchor": "testimonials1-g",
           "_params": {
             "paddingTop": "2",
-            "paddingBottom": "0",
+            "paddingBottom": "2",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x2000.jpg",
@@ -725,7 +731,7 @@
               "text-align": "center"
             },
             ".card-block I": {
-              "text-align": "left"
+              "text-align": "center"
             }
           }
         },
@@ -738,7 +744,7 @@
           "_anchor": "contacts3-i",
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
@@ -769,7 +775,7 @@
               },
               "phone": {
                 "title": "Phone",
-                "visible": true,
+                "visible": false,
                 "customTitle": "Phone"
               },
               "message": {
@@ -778,7 +784,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\">Contact Us</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success-outline btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>"
         }
       ]
     }
