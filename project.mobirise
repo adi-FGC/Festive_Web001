@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Festive",
-    "currentPage": "Interns.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -475,9 +475,17 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text1": "<strong>Address</strong><br>M-47, First Floor<br>Greater Kailash - 1<br>New Delhi - 110022<br>India<br>",
           "text2": "<strong>Contacts</strong><br>\nEmail: fgfestive@gmail.com<br>\nPhone: +91 98682 32278&nbsp;<br>",
-          "text3": "<strong>Links</strong><ul><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Android</a></b></li><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Windows</a></b></li></ul>"
+          "text3": "<strong>Links</strong><ul><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Android</a></b></li><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Windows</a></b></li></ul>",
+          "_styles": {
+            "STRONG": {
+              "font-size": "20px"
+            },
+            "P": {
+              "font-size": "16px"
+            }
+          }
         }
       ]
     },
@@ -721,7 +729,7 @@
             "showName": true,
             "showBio": true
           },
-          "header": "But that's not all we have on offer!",
+          "header": "<b>But that's not all we have on offer!</b>",
           "_styles": {
             ".mbr-section-title": {
               "color": "#ffffff"
@@ -754,8 +762,8 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br>\n<strong>Contacts</strong><br>Email: fgfestive@gmail.com<br>Phone: +91 98682 32278<br><br>Copyright (c) 2017 <br>Feels Good Creations | Festive.<br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Android</a></li><li>Download for Mac</li><li><span style=\"font-size: 1rem; line-height: 1.5;\">Terms of Use</span></li><li><span style=\"font-size: 1rem; line-height: 1.5;\">Privacy Policy</span></li></ul>",
+          "text1": "<strong>Address</strong><br>M-47, First Floor<br>Greater Kailash - 1<br>New Delhi - 110022<br>India<br><br>\n<strong>Contacts</strong><br>Email: fgfestive@gmail.com<br>Phone: +91 98682 32278<br><br>Copyright (c) 2017 <br>Feels Good Creations | Festive.<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Android</a></li><li>Download for Windows</li><li><span style=\"font-size: 1rem; line-height: 1.5;\">Terms of Use</span></li><li><span style=\"font-size: 1rem; line-height: 1.5;\">Privacy Policy</span></li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "aditya.mishra@dynamix.co.in",
@@ -784,7 +792,15 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success-outline btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success-outline btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
+          "_styles": {
+            "STRONG": {
+              "font-size": "18px"
+            },
+            "P": {
+              "font-size": "14px"
+            }
+          }
         }
       ]
     }

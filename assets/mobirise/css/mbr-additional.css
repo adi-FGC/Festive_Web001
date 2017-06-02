@@ -106,6 +106,12 @@
   color: #ffffff;
   font-family: 'Alegreya Sans', sans-serif;
 }
+#contacts1-7 STRONG {
+  font-size: 20px;
+}
+#contacts1-7 P {
+  font-size: 16px;
+}
 #dropdown-menu-2btn-4 .hide-buttons [data-button] {
   display: none !important;
 }
@@ -156,4 +162,10 @@
 }
 #testimonials1-g .card-block I {
   text-align: center;
+}
+#contacts3-i STRONG {
+  font-size: 18px;
+}
+#contacts3-i P {
+  font-size: 14px;
 }
