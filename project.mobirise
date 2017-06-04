@@ -552,7 +552,7 @@
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "css": "'Roboto', sans-serif"
             },
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "transparent": true,
             "sticky": true,
             "logo": true,
