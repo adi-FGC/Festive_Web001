@@ -8,8 +8,12 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 22,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 32,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/footer-logo-128x138.png",
+    "noImageResize": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "google-analytics": ""
   },
   "pages": {
     "home.html": {
@@ -33,7 +37,11 @@
               "font-size": "32px",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "color": "#191919"
+              "color": "#fff8e0"
+            },
+            ".mbr-section-title B": {
+              "text-align": "right",
+              "color": "#fff8e0"
             }
           },
           "_anchor": "form2-5",
@@ -46,8 +54,8 @@
             "bgColor": "#FFF8E0",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0",
-            "overlayColor": "#222",
+            "overlayOpacity": "0.1",
+            "overlayColor": "#000000",
             "showTitle": true
           },
           "title": "Wish to do something that simply&nbsp;<b>Feels Good</b>?<br>",
@@ -66,74 +74,23 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black-outline btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Search</a>"
         },
         {
-          "_inherit": "dropdown-menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "24px"
-            },
-            ".nav .link, .dropdown-item": {
-              "font-size": "1.4em",
-              "color": "#121212",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#121212"
-            }
-          },
-          "_name": "dropdown-menu-2btn",
-          "_anchor": "dropdown-menu-2btn-1",
-          "_params": {
-            "bgColor": "#ffffff",
-            "fontSize": "1.4",
-            "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
-            },
-            "fontColor": "#121212",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-128x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Festive",
-              "link": "home.html",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\">For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Our Mission</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Road so far...</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline\" href=\"https://mobirise.com/\">For Android</a></li>"
-        },
-        {
           "_inherit": "header1",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#dddddd",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-size": "23px"
+            }
+          },
           "_anchor": "header2-3",
           "_params": {
             "parallax": true,
@@ -156,20 +113,9 @@
             "showButtons": true,
             "showArrow": true
           },
-          "title": "Feels Good Creations",
+          "title": "<b>Feels Good Creations</b>",
           "text": "A consulting &nbsp;support system, created and sustained by dreamers and enthusiasts <br>to help those who wish to bring about a change in the world, <br>though technological integration.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
-          "_styles": {
-            "H1": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#dddddd",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
-              "font-size": "23px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>"
         },
         {
           "alias": "purity/components",
@@ -177,6 +123,20 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "color": "#ffffff",
+              "font-size": "32px"
+            },
+            "H1": {
+              "text-align": "center",
+              "color": "#f8f8f6"
+            },
+            "B": {
+              "font-size": "84px"
+            }
+          },
           "_anchor": "header1-2",
           "_params": {
             "parallax": true,
@@ -201,21 +161,7 @@
           },
           "title": "<b>Festive!</b>",
           "text": "A platform which reaches the people to help the masses take on titanic challanges with ease. One step at a time!",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download Now</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center",
-              "color": "#ffffff",
-              "font-size": "32px"
-            },
-            "H1": {
-              "text-align": "center",
-              "color": "#f8f8f6"
-            },
-            "B": {
-              "font-size": "84px"
-            }
-          }
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download Now</a>"
         },
         {
           "alias": "purity/components",
@@ -223,6 +169,24 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            ".lead BLOCKQUOTE": {
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "font-size": "32px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            ".mbr-section-title B": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            "small": {
+              "color": "#fbfbfb"
+            }
+          },
           "_anchor": "msg-box5-b",
           "_params": {
             "imageSize": "70",
@@ -267,25 +231,7 @@
           "title": "<b>Take the Lead</b>",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<blockquote>Often, a leader is all it take to initiate change. <br>No matter how daunting the task may seem, a small catalyst can ignite the flames of revolution.</blockquote>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>",
-          "_styles": {
-            ".lead BLOCKQUOTE": {
-              "text-align": "left",
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "font-size": "32px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            },
-            ".mbr-section-title B": {
-              "color": "#ffffff",
-              "text-align": "left"
-            },
-            "small": {
-              "color": "#fbfbfb"
-            }
-          }
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -294,6 +240,34 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "right",
+              "font-size": "32px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "color": "#ffffff"
+            },
+            ".lead P": {
+              "text-align": "right",
+              "color": "#ffffff"
+            },
+            ".lead BLOCKQUOTE": {
+              "text-align": "right",
+              "color": "#ffffff"
+            },
+            ".lead H1": {
+              "text-align": "right"
+            },
+            "small": {
+              "text-align": "right",
+              "color": "#dddddd"
+            },
+            ".lead": {
+              "text-align": "right",
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "msg-box4-8",
           "_params": {
             "imageSize": "70",
@@ -341,35 +315,7 @@
           "title": "<b>United We Stand</b>",
           "meta": "By John Smith posted July 30, 2015",
           "text": "Some undertakings require more than a leader who sparks the revolution. Join hands with the many to bring about real, meaningful changes.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a> ",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "right",
-              "font-size": "32px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "color": "#ffffff"
-            },
-            ".lead P": {
-              "text-align": "right",
-              "color": "#ffffff"
-            },
-            ".lead BLOCKQUOTE": {
-              "text-align": "right",
-              "color": "#ffffff"
-            },
-            ".lead H1": {
-              "text-align": "right"
-            },
-            "small": {
-              "text-align": "right",
-              "color": "#dddddd"
-            },
-            ".lead": {
-              "text-align": "right",
-              "color": "#ffffff"
-            }
-          }
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a> "
         },
         {
           "alias": "purity/components",
@@ -377,6 +323,17 @@
             "Theme"
           ],
           "_name": "image1",
+          "_styles": {
+            "DIV": {
+              "text-align": "center",
+              "font-size": "20px"
+            },
+            "B": {
+              "color": "#191919",
+              "font-size": "16px",
+              "text-align": "right"
+            }
+          },
           "_anchor": "image1-9",
           "_params": {
             "showText": false
@@ -393,18 +350,7 @@
               "active": true
             }
           },
-          "text": "",
-          "_styles": {
-            "DIV": {
-              "text-align": "center",
-              "font-size": "20px"
-            },
-            "B": {
-              "color": "#191919",
-              "font-size": "16px",
-              "text-align": "right"
-            }
-          }
+          "text": ""
         },
         {
           "_inherit": "msg-box1",
@@ -413,6 +359,15 @@
             "Theme"
           ],
           "_name": "msg-box2",
+          "_styles": {
+            "H2": {
+              "text-align": "left",
+              "font-size": "20px",
+              "color": "#ffffff",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            }
+          },
           "_anchor": "msg-box2-k",
           "_params": {
             "paddingTop": "1",
@@ -436,16 +391,7 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Start your Journey</a>",
           "title": "One can never have too much of experience. <br>Rediscover a new way of life! A way that simply <b><a href=\"home.html\">feels good</a></b>!",
-          "text": "",
-          "_styles": {
-            "H2": {
-              "text-align": "left",
-              "font-size": "20px",
-              "color": "#ffffff",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
-            }
-          }
+          "text": ""
         },
         {
           "alias": "purity/components",
@@ -453,6 +399,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "font-size": "20px"
+            },
+            "P": {
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts1-7",
           "_params": {
             "paddingTop": "2",
@@ -487,15 +441,69 @@
           },
           "text1": "<strong>Address</strong><br>M-47, First Floor<br>Greater Kailash - 1<br>New Delhi - 110022<br>India<br>",
           "text2": "<strong>Contacts</strong><br>\nEmail: fgfestive@gmail.com<br>\nPhone: +91 98682 32278&nbsp;<br>",
-          "text3": "<strong>Links</strong><ul><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Android</a></b></li><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Windows</a></b></li></ul>",
+          "text3": "<strong>Links</strong><ul><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Android</a></b></li><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Windows</a></b></li></ul>"
+        },
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
-            "STRONG": {
-              "font-size": "20px"
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
             },
-            "P": {
-              "font-size": "16px"
+            ".navbar-brand a": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "24px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#737373"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#696969"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
             }
-          }
+          },
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-4",
+          "_params": {
+            "bgColor": "#737373",
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Logo",
+              "link": "home.html",
+              "title": "FGC Logo",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\">For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\">Our Mission</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"journey.html\" aria-expanded=\"false\">Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
         }
       ]
     },
@@ -519,10 +527,10 @@
               "font-size": "24px"
             },
             ".nav .link, .dropdown-item": {
-              "font-size": "1.4em",
-              "color": "#121212",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
+              "font-size": "1.2em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -531,20 +539,20 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#121212"
+              "color": "#000000"
             }
           },
           "_name": "dropdown-menu-2btn",
           "_anchor": "dropdown-menu-2btn-4",
           "_params": {
             "bgColor": "#ffffff",
-            "fontSize": "1.4",
+            "fontSize": "1.2",
             "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
             },
-            "fontColor": "#121212",
+            "fontColor": "#000000",
             "transparent": true,
             "sticky": true,
             "logo": true,
@@ -564,7 +572,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\">For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Our Mission</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Road so far...</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline\" href=\"https://mobirise.com/\">For Android</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\">For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Our Mission</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Road so far...</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
         },
         {
           "_inherit": "header1",
@@ -573,6 +581,18 @@
             "Theme"
           ],
           "_name": "header4",
+          "_styles": {
+            "H1": {
+              "font-size": "30px"
+            },
+            "P": {
+              "font-size": "19px",
+              "text-align": "right"
+            },
+            "B": {
+              "text-align": "right"
+            }
+          },
           "_anchor": "header4-c",
           "_params": {
             "parallax": true,
@@ -595,19 +615,7 @@
           },
           "title": "<b>Why intern at FGC?</b>",
           "text": "At FGC we believe in creating <b>bonds that last</b>, <br>so you as FGC interns get <b>one-on-one mentoring</b> <br>from the FGC executives as well as from the various <br>eminent people who are contributors in the FGC network. <br>We shall <b>incubate you</b> and support you through the various <br>phases and challenges that you will face, so at the very least <b>you </b><br>shall be a <b>proud member of a family</b> built around these cornerstones..",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Join Now</a> ",
-          "_styles": {
-            "H1": {
-              "font-size": "30px"
-            },
-            "P": {
-              "font-size": "19px",
-              "text-align": "right"
-            },
-            "B": {
-              "text-align": "right"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Join Now</a> "
         },
         {
           "alias": "purity/components",
@@ -615,6 +623,16 @@
             "Theme"
           ],
           "_name": "content5",
+          "_styles": {
+            "P": {
+              "font-size": "25px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title B": {
+              "font-size": "60px",
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "content5-d",
           "_params": {
             "paddingTop": "3",
@@ -635,17 +653,7 @@
             "showCaption": true
           },
           "title": "<b>FGC Benefits!</b>",
-          "caption": "<p>Most importantly we offer you a chance to get in on the ground level of FGC, <br>which we intend to make into a household name in the years to come.</p>",
-          "_styles": {
-            "P": {
-              "font-size": "25px",
-              "color": "#ffffff"
-            },
-            ".mbr-section-title B": {
-              "font-size": "60px",
-              "color": "#ffffff"
-            }
-          }
+          "caption": "<p>Most importantly we offer you a chance to get in on the ground level of FGC, <br>which we intend to make into a household name in the years to come.</p>"
         },
         {
           "alias": "purity/components",
@@ -653,6 +661,11 @@
             "Theme"
           ],
           "_name": "content4",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "content4-e",
           "_params": {
             "paddingTop": "2",
@@ -680,12 +693,7 @@
           "title3": "Courses",
           "caption3": "We shall provide you with the necessary training and resources to complete our specially designed courses, free of cost.",
           "title4": "Letter of Appreciation",
-          "caption4": "There are always those who stand out from the crowd and go.above and beyond the call of duty to deliver jobs that exceeds our expectations. Such hard work shall always be rewarded in the form of LoAs among other things.",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "caption4": "There are always those who stand out from the crowd and go.above and beyond the call of duty to deliver jobs that exceeds our expectations. Such hard work shall always be rewarded in the form of LoAs among other things."
         },
         {
           "items": [
@@ -715,6 +723,18 @@
             "Theme"
           ],
           "_name": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".card-footer > div": {
+              "font-size": "24px",
+              "text-align": "center"
+            },
+            ".card-block I": {
+              "text-align": "center"
+            }
+          },
           "testimonial": [
             {
               "text": "<i>FGC products are slated to be amongst the household items in the days to come. For the duration of your internship you shall have premium access to all FGC products. <br>This may be extended to a lifetime access given your continued relationship​ with FGC.</i>",
@@ -736,6 +756,9 @@
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "2",
+            "count": "3",
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x2000.jpg",
@@ -744,24 +767,9 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "count": "3",
-            "showName": true,
-            "showBio": true
+            "showTitle": true
           },
-          "header": "<b>But that's not all we have on offer!</b>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".card-footer > div": {
-              "font-size": "24px",
-              "text-align": "center"
-            },
-            ".card-block I": {
-              "text-align": "center"
-            }
-          }
+          "header": "<b>But that's not all we have on offer!</b>"
         },
         {
           "alias": "purity/components",
@@ -769,6 +777,14 @@
             "Theme"
           ],
           "_name": "contacts3",
+          "_styles": {
+            "STRONG": {
+              "font-size": "18px"
+            },
+            "P": {
+              "font-size": "14px"
+            }
+          },
           "_anchor": "contacts3-i",
           "_params": {
             "paddingTop": 3,
@@ -812,15 +828,388 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success-outline btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success-outline btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>"
+        }
+      ]
+    },
+    "mission.html": {
+      "settings": {
+        "title": "Festive | Our Mission",
+        "meta_descr": "The page details the mission of Festive. focusing on the problems as well as the approach we shall take to tackle those problems and the zenith of our mission (an acceptable checkpoint)"
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
-            "STRONG": {
-              "font-size": "18px"
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "24px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#737373"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#696969"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-o",
+          "_params": {
+            "bgColor": "#737373",
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Logo",
+              "link": "home.html",
+              "title": "FGC Logo",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\">For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\">Our Mission</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"journey.html\" aria-expanded=\"false\">Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-p",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#000000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "Festivals",
+          "text": "A period of joyous celebration, typically for religious reasons that inspires communal unity and spreads joy all around. Creating an enviroment which is chracteristic of a happy society.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"mission.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
             },
             "P": {
-              "font-size": "14px"
+              "color": "#fbfbfb",
+              "font-size": "20px"
             }
           }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "font-size": "20px"
+            },
+            "P": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "contacts1-n",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-128x128.png",
+              "width": 265,
+              "active": true,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>M-47, First Floor<br>Greater Kailash - 1<br>New Delhi - 110022<br>India<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: fgfestive@gmail.com<br>\nPhone: +91 98682 32278&nbsp;<br>",
+          "text3": "<strong>Links</strong><ul><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Android</a></b></li><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Windows</a></b></li></ul>"
+        }
+      ]
+    },
+    "journey.html": {
+      "settings": {
+        "title": "Festive | Journey",
+        "meta_descr": "Displays our journey from a group of engineers to innovators and social sympathiezers, using what we've learned to change the world around us for the better."
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-v",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1400x990.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.1",
+            "overlayColor": "#000000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "The Journey so far.",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "24px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#737373"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#696969"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-q",
+          "_params": {
+            "bgColor": "#737373",
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Logo",
+              "link": "home.html",
+              "title": "FGC Logo",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\">For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\">Our Mission</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"journey.html\" aria-expanded=\"false\">Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/photo-6.jpg",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "The Dream",
+                "showText": true,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/photo-9.jpg",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "The Vision",
+                "showText": true,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/photo-10.jpg",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "The Mission",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-2000x1334.jpg",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "Today",
+                "showText": true,
+                "text": "We are a team of over 30 strong, with active social media &nbsp;presence and hopefully a small mark on the world in a constructive way we wanted to begin with.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-u",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "font-size": "20px"
+            },
+            "P": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "contacts1-r",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-128x128.png",
+              "width": 265,
+              "active": true,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>M-47, First Floor<br>Greater Kailash - 1<br>New Delhi - 110022<br>India<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: fgfestive@gmail.com<br>\nPhone: +91 98682 32278&nbsp;<br>",
+          "text3": "<strong>Links</strong><ul><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Android</a></b></li><li><b><a href=\"https://play.google.com/store/apps/developer?id=Feels+Good+Creations\" target=\"_blank\">Download for Windows</a></b></li></ul>"
         }
       ]
     }
