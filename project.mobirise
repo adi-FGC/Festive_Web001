@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "Festive",
-    "currentPage": "journey.html",
+    "currentPage": "Interns.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 44,
+    "uniqCompNum": 50,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/footer-logo-128x138.png",
     "noImageResize": "",
@@ -18,9 +18,41 @@
   "pages": {
     "Interns.html": {
       "settings": {
-        "title": "FGC | Interns"
+        "title": "FGC | Interns",
+        "meta_descr": "Providdes details about the internship program at Festive and its benefits."
       },
       "components": [
+        {
+          "_inherit": "header1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-19",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1656.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "We're Hiring!",
+          "text": "Browse through the &nbsp;benefits at you own risk!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Interns.html#form2-13\" data-toolbar=\"-mbrBtnMove\">Join Now<br></a>"
+        },
         {
           "_inherit": "dropdown-menu",
           "_tags": [
@@ -81,53 +113,57 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
         },
         {
-          "_inherit": "header1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".lead P": {
+              "color": "#ffffff",
+              "font-size": "22px",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".mbr-section-title B": {
+              "color": "#ffffff",
+              "font-size": "48px"
+            }
+          },
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header4",
-          "_styles": {
-            "H1": {
-              "font-size": "30px"
-            },
-            "P": {
-              "font-size": "19px",
-              "text-align": "right",
-              "color": "#ffffff"
-            },
-            "B": {
-              "text-align": "right",
-              "color": "#ffffff",
-              "font-size": "19px"
-            }
-          },
-          "_anchor": "header4-c",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-18",
           "_params": {
-            "parallax": true,
+            "paddingTop": 3,
+            "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1656.jpg",
-            "bgColor": "#fff8e0",
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-9-2000x1333.jpg",
+            "bgColor": "#FFF8E0",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
-            "overlayColor": "#000000",
-            "contentAlign": "right",
+            "overlayOpacity": "0.5",
+            "overlayColor": "#222",
             "showTitle": true,
+            "showMeta": false,
             "showText": true,
-            "showButtons": true,
-            "showArrow": true
+            "showButton": true
           },
           "title": "<b>Why intern at FGC?</b>",
-          "text": "At FGC we believe in creating <b>bonds that last</b>, <br>so you as FGC interns get <b>one-on-one mentoring</b> <br>from the FGC executives as well as from the various <br>eminent people who are contributors in the FGC network. <br>We shall <b>incubate you</b> and support you through the various <br>phases and challenges that you will face, so at the very least <b>you </b><br>shall be a <b>proud member of a family</b> built around these cornerstones..",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"Interns.html\" data-toolbar=\"-mbrBtnMove\">Join Now</a> "
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>At FGC we believe in creating bonds that last,&nbsp;<span style=\"font-size: 1.25rem; line-height: 1.5;\">so you as FGC interns get one-on-one mentoring&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">from the FGC executives as well as from the various&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">eminent people who are contributors in the FGC network.&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">We shall incubate you and support you through the various&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">phases and challenges that you will face, so at the very least you&nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">shall be a proud member of a family built around these cornerstones..</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"Interns.html#form2-13\" data-toolbar=\"-mbrBtnMove\">Let's Start!</a>"
         },
         {
           "alias": "purity/components",
@@ -180,7 +216,7 @@
           },
           "_anchor": "content4-e",
           "_params": {
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": "4",
             "bgImageRadio": true,
             "parallax": true,
@@ -284,45 +320,124 @@
           "header": "<b>But that's not all we offer!</b>"
         },
         {
+          "_inherit": "msg-box5",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "form2",
-          "_styles": {
-            ".mbr-section-title P": {
-              "font-size": "32px",
-              "color": "#ffebeb"
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1d",
+          "_params": {
+            "imageSize": "70",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#292929",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-10-2000x1333.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
             }
           },
-          "_anchor": "form2-13",
+          "title": "Joining us is easy!",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Simply fill out the form below and we shall contact you.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".lead P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1a",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1321.jpg",
-            "bgColor": "#5bc0de",
-            "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.3",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-10-2000x1333.jpg",
+            "bgColor": "#303030",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true
           },
-          "title": "<p><b>Get Started Now!</b></p>",
+          "title": "<b>Contact Form</b>",
           "form": {
             "action": "aditya.mishra@dynamix.co.in",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
             "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
               "email": {
                 "title": "Email",
-                "customTitle": "Enter Your Email Address..."
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Your Life Story/Vision"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\">Subscribe</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success-outline btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Submit Details</a>",
+          "_styles": {
+            ".mbr-section-title B": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "alias": "purity/components",
@@ -345,7 +460,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#37393d",
+            "bgColor": "#37393e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -463,7 +578,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
         },
         {
           "_inherit": "header1",
@@ -655,7 +770,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#37393d",
+            "bgColor": "#37393e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -949,7 +1064,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#37393d",
+            "bgColor": "#37393e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1059,7 +1174,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
         }
       ]
     },
@@ -1167,7 +1282,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -1260,7 +1375,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#37393d",
+            "bgColor": "#37393e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1423,11 +1538,14 @@
               "font-size": "32px",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "color": "#000000"
+              "color": "#1b1b1b"
             },
             ".mbr-section-title B": {
               "text-align": "right",
               "color": "#000000"
+            },
+            ".mbr-section-title I": {
+              "text-align": "center"
             }
           },
           "_anchor": "form2-5",
@@ -1439,12 +1557,12 @@
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#FFF8E0",
             "bgColorRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": "0",
             "overlayColor": "#000000",
             "showTitle": true
           },
-          "title": "Wish to do something that simply&nbsp;<b>Feels Good?</b><br>",
+          "title": "<i>Wish to do something that simply&nbsp;<b>Feels Good</b>?</i><br>",
           "form": {
             "action": "aditya.mishra@dynamix.co.in",
             "alerts": {
@@ -1528,7 +1646,7 @@
             }
           },
           "title": "<b>Take the Lead</b>",
-          "meta": "By John Smith posted July 30, 2015",
+          "meta": "By Prof. X &nbsp;posted June 03, 2017",
           "text": "<blockquote>Often, a leader is all it take to initiate change. <br>No matter how daunting the task may seem, a small catalyst can ignite the flames of revolution.</blockquote>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"journey.html\" data-toolbar=\"-mbrBtnMove\">More</a>"
         },
@@ -1617,7 +1735,7 @@
             }
           },
           "title": "<b>United We Stand</b>",
-          "meta": "By John Smith posted July 30, 2015",
+          "meta": "By Mojo Jojo posted June 03, 2017",
           "text": "Some undertakings require more than a leader who sparks the revolution. Join hands with the many to bring about real, meaningful changes.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"mission.html\" data-toolbar=\"-mbrBtnMove\">More</a> "
         },
@@ -1723,7 +1841,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#37393d",
+            "bgColor": "#37393e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1812,7 +1930,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"home.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Festive</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\" target=\"_blank\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Interns.html\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>For Interns</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mission.html\" aria-expanded=\"false\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>Our Mission</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"journey.html\" aria-expanded=\"false\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Road so far...</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"blog.html\" aria-expanded=\"false\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/\">For Android</a></li>"
         },
         {
           "alias": "purity/components",

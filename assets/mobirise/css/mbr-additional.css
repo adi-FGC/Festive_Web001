@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
 
 
 #dropdown-menu-2btn-4 .hide-buttons [data-button] {
@@ -30,18 +32,20 @@
 #dropdown-menu-2btn-4 .navbar-toggler {
   color: #ffffff;
 }
-#header4-c H1 {
-  font-size: 30px;
+#msg-box3-18 .mbr-header .mbr-header__text {
+  text-align: center;
 }
-#header4-c P {
-  font-size: 19px;
-  text-align: right;
-  color: #ffffff;
+#msg-box3-18 .mbr-header .mbr-header__subtext {
+  text-align: center;
 }
-#header4-c B {
-  text-align: right;
+#msg-box3-18 .lead P {
   color: #ffffff;
-  font-size: 19px;
+  font-size: 22px;
+  font-family: 'Titillium Web', sans-serif;
+}
+#msg-box3-18 .mbr-section-title B {
+  color: #ffffff;
+  font-size: 48px;
 }
 #content5-d P {
   font-size: 25px;
@@ -64,9 +68,14 @@
 #testimonials1-g .card-block I {
   text-align: center;
 }
-#form2-13 .mbr-section-title P {
-  font-size: 32px;
-  color: #ffebeb;
+#msg-box4-1d .mbr-section-title {
+  color: #ffffff;
+}
+#msg-box4-1d .lead P {
+  color: #ffffff;
+}
+#form1-1a .mbr-section-title B {
+  color: #ffffff;
 }
 #contacts1-7 STRONG {
   font-size: 20px;
@@ -247,11 +256,14 @@
 #form2-5 .mbr-section-title {
   font-size: 32px;
   font-family: 'Open Sans', sans-serif;
-  color: #000000;
+  color: #1b1b1b;
 }
 #form2-5 .mbr-section-title B {
   text-align: right;
   color: #000000;
+}
+#form2-5 .mbr-section-title I {
+  text-align: center;
 }
 #msg-box5-b .lead BLOCKQUOTE {
   text-align: left;
