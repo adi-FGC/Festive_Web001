@@ -1,129 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
-
-
-
-
-
-
-
-#header2-3 H1 {
-  color: #ffffff;
-}
-#header2-3 P {
-  color: #dddddd;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 25px;
-}
-#header1-2 P {
-  text-align: center;
-  color: #ffffff;
-  font-size: 32px;
-}
-#header1-2 H1 {
-  text-align: center;
-  color: #f8f8f6;
-}
-#header1-2 B {
-  font-size: 84px;
-}
-#form2-5 .mbr-section-title {
-  font-size: 32px;
-  font-family: 'Open Sans', sans-serif;
-  color: #000000;
-}
-#form2-5 .mbr-section-title B {
-  text-align: right;
-  color: #000000;
-}
-#msg-box5-b .lead BLOCKQUOTE {
-  text-align: left;
-  color: #ffffff;
-}
-#msg-box5-b .mbr-section-title {
-  font-size: 32px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-#msg-box5-b .mbr-section-title B {
-  color: #ffffff;
-  text-align: left;
-}
-#msg-box5-b small {
-  color: #fbfbfb;
-}
-#msg-box4-8 .mbr-section-title {
-  text-align: right;
-  font-size: 32px;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #ffffff;
-}
-#msg-box4-8 .lead P {
-  text-align: right;
-  color: #ffffff;
-}
-#msg-box4-8 .lead BLOCKQUOTE {
-  text-align: right;
-  color: #ffffff;
-}
-#msg-box4-8 .lead H1 {
-  text-align: right;
-}
-#msg-box4-8 small {
-  text-align: right;
-  color: #dddddd;
-}
-#msg-box4-8 .lead {
-  text-align: right;
-  color: #ffffff;
-}
-#image1-9 DIV {
-  text-align: center;
-  font-size: 20px;
-}
-#image1-9 B {
-  color: #191919;
-  font-size: 16px;
-  text-align: right;
-}
-#msg-box2-k H2 {
-  text-align: left;
-  font-size: 20px;
-  color: #ffffff;
-  font-family: 'Alegreya Sans', sans-serif;
-}
-#contacts1-7 STRONG {
-  font-size: 20px;
-}
-#contacts1-7 P {
-  font-size: 16px;
-}
-#dropdown-menu-2btn-4 .hide-buttons [data-button] {
-  display: none !important;
-}
-#dropdown-menu-2btn-4 .navbar-brand a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
-}
-#dropdown-menu-2btn-4 .nav .link,
-#dropdown-menu-2btn-4 .dropdown-item {
-  font-size: 1.2em;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-}
-#dropdown-menu-2btn-4 .navbar,
-#dropdown-menu-2btn-4 .dropdown-menu {
-  background: #37383e;
-}
-#dropdown-menu-2btn-4 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
-#dropdown-menu-2btn-4 .dropdown-menu a:hover,
-#dropdown-menu-2btn-4 .dropdown-menu a:focus {
-  background: #2d2e33;
-}
-#dropdown-menu-2btn-4 .navbar-toggler {
-  color: #ffffff;
-}
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
 
 #dropdown-menu-2btn-4 .hide-buttons [data-button] {
@@ -162,6 +41,7 @@
 #header4-c B {
   text-align: right;
   color: #ffffff;
+  font-size: 19px;
 }
 #content5-d P {
   font-size: 25px;
@@ -249,6 +129,15 @@
 #header1-v H1 {
   color: #ffffff;
 }
+#header1-v P {
+  color: #ffffff;
+}
+#slider-u P {
+  color: #ffffff;
+}
+#slider-u H2 {
+  color: #ffffff;
+}
 #contacts1-r STRONG {
   font-size: 20px;
 }
@@ -282,6 +171,12 @@
 }
 
 
+#header1-10 H1 {
+  color: #ffffff;
+}
+#header1-10 P {
+  color: #ffffff;
+}
 #dropdown-menu-2btn-x .hide-buttons [data-button] {
   display: none !important;
 }
@@ -307,9 +202,150 @@
 #dropdown-menu-2btn-x .navbar-toggler {
   color: #ffffff;
 }
+#slider-y H2 {
+  color: #ffffff;
+}
+#slider-y P {
+  color: #ffffff;
+}
 #contacts1-w STRONG {
   font-size: 20px;
 }
 #contacts1-w P {
   font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+#header2-3 H1 {
+  color: #ffffff;
+}
+#header2-3 P {
+  color: #dddddd;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 25px;
+}
+#header1-2 P {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+}
+#header1-2 H1 {
+  text-align: center;
+  color: #f8f8f6;
+}
+#header1-2 B {
+  font-size: 84px;
+}
+#form2-5 .mbr-section-title {
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+}
+#form2-5 .mbr-section-title B {
+  text-align: right;
+  color: #000000;
+}
+#msg-box5-b .lead BLOCKQUOTE {
+  text-align: left;
+  color: #ffffff;
+}
+#msg-box5-b .mbr-section-title {
+  font-size: 32px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#msg-box5-b .mbr-section-title B {
+  color: #ffffff;
+  text-align: left;
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+}
+#msg-box5-b small {
+  color: #fbfbfb;
+}
+#msg-box4-8 .mbr-section-title {
+  text-align: right;
+  font-size: 32px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+}
+#msg-box4-8 .lead P {
+  text-align: right;
+  color: #ffffff;
+}
+#msg-box4-8 .lead BLOCKQUOTE {
+  text-align: right;
+  color: #ffffff;
+}
+#msg-box4-8 .lead H1 {
+  text-align: right;
+}
+#msg-box4-8 small {
+  text-align: right;
+  color: #dddddd;
+}
+#msg-box4-8 .lead {
+  text-align: right;
+  color: #ffffff;
+}
+#msg-box4-8 .mbr-section-title B {
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+}
+#image1-9 DIV {
+  text-align: center;
+  font-size: 20px;
+}
+#image1-9 B {
+  color: #191919;
+  font-size: 16px;
+  text-align: right;
+}
+#msg-box2-k H2 {
+  text-align: left;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#msg-box2-k P {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+#contacts1-7 STRONG {
+  font-size: 20px;
+}
+#contacts1-7 P {
+  font-size: 16px;
+}
+#dropdown-menu-2btn-4 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-4 .navbar-brand a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+#dropdown-menu-2btn-4 .nav .link,
+#dropdown-menu-2btn-4 .dropdown-item {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+#dropdown-menu-2btn-4 .navbar,
+#dropdown-menu-2btn-4 .dropdown-menu {
+  background: #37383e;
+}
+#dropdown-menu-2btn-4 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-4 .dropdown-menu a:hover,
+#dropdown-menu-2btn-4 .dropdown-menu a:focus {
+  background: #2d2e33;
+}
+#dropdown-menu-2btn-4 .navbar-toggler {
+  color: #ffffff;
 }
